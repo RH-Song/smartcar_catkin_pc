@@ -10,7 +10,7 @@ cd ..
 catkin_make
 # configure catkin workspace
 source devel/setup.sh
-# [option]start distributed Hector SLAM
+# [option]start distributed Hector SLAM(you should configure your Raspberrypi first)
 roslaunch hector_slam_example hector_hokuyo_networking.launch
 # [option]start centralized Hector SLAM
 roslaunch hector_slam_example hector_hokuyo_eth.launch
