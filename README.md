@@ -22,9 +22,15 @@ roslaunch hector_slam_example hector_hokuyo_eth.launch
 ```
 
 ## Include following Dependencies
-> laser_proc
-> urg_c
-> urg_node
-> hector_slam
+
+> [laser_proc](https://github.com/ros-perception/laser_proc)
+
+> [urg_c](https://github.com/ros-drivers/urg_c)
+
+> [urg_node](https://github.com/ros-drivers/urg_node)
+
+> [hector_slam](https://github.com/tu-darmstadt-ros-pkg/hector_slam)
+
 > smartcar_model
-> hector_slam_example
+
+> [hector_slam_example](https://github.com/DaikiMaekawa/hector_slam_example)
