@@ -5,6 +5,8 @@ Catkin workspace for Hector SLAM
 cd ~/your_catkin_workspace
 cd src
 git clone https://github.com/Durant35/HectorSLAM_catkin.git
+mv HectorSLAM_catkin/* ..
+rm -rf HectorSLAM_catkin/
 # build those packages
 cd ..
 catkin_make
