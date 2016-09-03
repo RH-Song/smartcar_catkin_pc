@@ -3,8 +3,8 @@ Catkin workspace for Hector SLAM
 
 ```shell
 # clone necessary packages into catkin workspace's src
-mkdir ~/my_catkin_ws
-cd ~/my_catkin_ws
+mkdir ~/catkin_ws
+cd ~/catkin_ws
 mkdir src
 cd src
 git clone https://github.com/Durant35/HectorSLAM_catkin.git
