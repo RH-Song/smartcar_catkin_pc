@@ -1,8 +1,9 @@
 ## Hector SLAM catkin workspace
 Catkin workspace for Hector SLAM
+
 ```shell
 # clone necessary packages into catkin workspace's src
-cd ~/your_catkin_workspace
+cd ~/my_catkin_ws
 cd src
 git clone https://github.com/Durant35/HectorSLAM_catkin.git
 mv HectorSLAM_catkin/* ..
