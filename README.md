@@ -7,9 +7,9 @@ mkdir ~/catkin_ws
 cd ~/catkin_ws
 mkdir src
 cd src
-git clone https://github.com/Durant35/HectorSLAM_catkin.git
-mv HectorSLAM_catkin/* .
-rm -rf HectorSLAM_catkin/
+git clone https://github.com/Durant35/smartcar_catkin_pc.git
+mv smartcar_catkin_pc/* .
+rm -rf smartcar_catkin_pc/
 # build those packages
 cd ..
 catkin_make
