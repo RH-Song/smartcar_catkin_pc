@@ -3,15 +3,9 @@ Catkin workspace for Hector SLAM
 
 ```shell
 # clone necessary packages into catkin workspace's src
-mkdir ~/catkin_ws
+git clone https://github.com/Durant35/smartcar_catkin_pc.git ~/catkin_ws
 cd ~/catkin_ws
-mkdir src
-cd src
-git clone https://github.com/Durant35/smartcar_catkin_pc.git
-mv smartcar_catkin_pc/* .
-rm -rf smartcar_catkin_pc/
 # build those packages
-cd ..
 catkin_make
 # configure catkin workspace
 source devel/setup.sh
