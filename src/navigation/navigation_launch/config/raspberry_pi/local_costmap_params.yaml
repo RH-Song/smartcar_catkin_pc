@@ -1,0 +1,27 @@
+##
+##	本地规划配置文件用来存储用于本地代价地图的配置参数
+##
+
+local_costmap:
+   global_frame: /odom
+   
+   robot_base_frame: /base_link
+   
+   update_frequency: 3.0
+   
+   ## publish_frequency设置代价地图发布可视化信息的频率，单位是Hz。
+   publish_frequency: 1.0
+   
+   static_map: flase
+   
+   ## rolling_window参数是用来设置在机器人移动过程中是否需要滚动窗口，以保持机器人处于中心位置。
+   rolling_window: true
+   
+   ## "width," "height," 和"resolution" 设置设置代价地图长（米）、高（米）和分辨率（米/格）。
+   ## 分辨率可以设置的与静态地图不同，但是一般情况下两者是相同的
+   width: 6.0
+   height: 6.0
+   
+   resolution: 0.05
+   
+   transform_tolerance: 1.0
