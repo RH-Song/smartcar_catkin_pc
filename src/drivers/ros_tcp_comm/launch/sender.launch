@@ -1,0 +1,13 @@
+<launch>  
+
+		<!--
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node"/>
+    -->
+
+    <node name="sender" pkg="ros_tcp_comm" type="sender.py" output="screen">
+      <param name="topic_name" type="string" value="/cmd_vel"/>
+      <param name="port_number" type="int" value="13000"/>
+      <param name="ip" type="string" value="127.0.0.1"/>
+    </node>
+
+</launch>
